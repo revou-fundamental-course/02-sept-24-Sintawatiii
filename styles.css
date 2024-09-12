@@ -1,0 +1,121 @@
+/* ini css */
+
+.main-header{
+    text-align: center;
+}
+
+.selection-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.selection-btn {
+    height: 32px;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.orange-color {
+    background-color: orange;
+}
+
+.white-color {
+    background-color: white;
+}
+
+.luas-segitiga-header {
+    padding-top: 32px;
+    border: 1px;
+    padding-bottom: 32px;
+    background: darkcyan;
+    margin: 0px;
+    text-align: center;
+}
+
+.luas-segitiga-content {
+    display: flex;
+    flex-direction: column;
+}
+.luas-segitiga-img {
+    height: 300px;
+    width: 301px;
+    background-image: url(https://asset.kompas.com/crops/ZwOr6ZrEtAtid5uZmYhDFijYPa4=/175x161:1573x1094/750x500/data/photo/2022/03/09/62288763c6d64.png);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.luas-segitiga-form-header {
+    text-align: center;
+}
+
+.luas-jajar-genjang-content {
+    display: flex;
+    flex-direction: column;
+}
+.luas-jajar-genjang-img {
+    height: 230px;
+    margin: 35px;
+    width: 301px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoKGruMoDp1TbxlkvJbceLm33IpqyNP1rKbg&s);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.luas-jajar-genjang-header {
+    padding-top: 32px;
+    border: 1px;
+    padding-bottom: 32px;
+    background: darkcyan;
+    margin: 0px;
+    text-align: center;
+}
+
+.luas-jajar-genjang-form-header {
+    text-align: center;
+}
+
+.input-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-wrapper>input {
+    width: 65%;
+}
+
+input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content>aside {
+    flex: 1;
+}
+
+.btn-reset {
+    background-color: darkcyan;
+    display: flex;
+}
+
+.p-luas-segitiga{
+    text-align: center;
+    border: 0px;
+    background-color: aliceblue;
+}
+.p-luas-jajar-genjang {
+    text-align: center;
+    border: 0px;
+    background-color: aliceblue;
+}
